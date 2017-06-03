@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+}
+
+.nav-content {
+    display: flex;
+    height: 190px;
+}
+
+.logo {
+    background-color: #F5005B;
+    padding: 4% 3%;
+    width: 40%;
+    height: 157px;
+}
+
+.nav-row {
+    width: 100%;
+    padding: 0px;
+}
+
+.nav-item {
+    list-style: none;
+    height: 48%;
+    display: flex;
+    margin-top: -15px;
+}
+
+.nav-item a {
+    color: #FFFFFF;
+    height: 50%;
+    text-decoration: none;
+}
+
+#Home {
+    background-color: #00A5BF;
+    padding: 7% 50% 6% 50%;
+}
+
+#Calendar {
+    background-color: #00B7D3;
+    padding: 7% 50% 6% 50%;
+}
+
+#Join {
+    background-color: #00D5e7;
+    padding: 7% 50% 6% 50%;
+}
+
+.header-container {
+    margin: 7% 5%;
+}
+
+.header-container h2 {
+    background-color: #0B1942;
+    color: #FFFFFF;
+    style
+}
+
+.Mhome-container {
+    background-color: #0B1942;
+    padding: 3%;
+}
+
+.Mhome-container h1 {
+    color: #FFFFFF;
+}
+
+.film-container {
+    background-color: #FFFFFF;
+    margin: 4%;
+    display: flex;
+    padding-bottom: 8%;
+    height: 100%;
+}
+
+.rashomon-list {
+    list-style-type: circle;
+}
+
+.films-container {
+    background-color: #FFFFFF;
+    margin: 0px 4% 4% 4%;
+    padding: 5%;
+    width: 82%;
+    height: 75%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.films{
+    width: 50%;
+    height: 50%;
+    margin: 0px;
+}
+
+#home-img {
+    width: 45%;
+    height: 75%;;
+    padding: 5%;
+}
+
+#films-img {
+    width: 90%;
+}
+
+.home-footer {
+    width: 100%;
+}
+
+.nav-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nfooter-item {
+    list-style: none;
+    margin-bottom: 10%;
+}
+
+.nfooter-item a {
+    text-decoration: none;
+    margin-left: -10%;
+}
+
+.home-span {
+    background-color: #80d5df;
+    padding: 10% 35%;
+    width: 100%;
+}

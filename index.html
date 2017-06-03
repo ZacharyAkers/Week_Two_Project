@@ -5,17 +5,17 @@
         <link href="css/main.css" rel="stylesheet">
     </head>
     <body>
-        <img src="images/filmclub.png">
-        <nav>
+        <nav class="nav-content">
+            <img src="images/filmclub.png" class="logo">
             <ul class="nav-row">
                 <li class="nav-item">
-                    <a href="index.html">Home</a>
+                    <a href="index.html" id="Home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="calendar/index.html">Calendar</a>
+                    <a href="calendar/index.html" id="Calendar">Calendar</a>
                 </li>
                 <li class="nav-item">
-                    <a href="join/index.html">Join</a>
+                    <a href="join/index.html" id="Join">Join</a>
                 </li>
             </ul>
         </nav>
@@ -36,16 +36,16 @@
                 </div>
             </section>
         </header>
-        <main>
+        <main class="Mhome-container">
             <h1>Up Next</h1>
-            <section>
-                <img src="images/rashomon-poster.jpg">
+            <section class="film-container">
+                <img src="images/rashomon-poster.jpg" id="home-img">
                 <div class="rashomon-content">
                     <h3>Rashomon</h3>
                     <p>Film Club: 6/13</p>
                     <hr>
                     <h4>Discussion Points</h4>
-                    <ul>
+                    <ul class="rashomon-list">
                         <li>perspective</li>
                         <li>balance</li>
                         <li>movement</li>
@@ -54,30 +54,30 @@
                     </ul>
                 </div>
             </section>
-            <section class="films">
-                <div>
-                    <img src="images/great-train-poster.jpg">
+            <section class="films-container">
+                <div class="films">
+                    <img src="images/great-train-poster.jpg" id="films-img">
                     <div class="train-content">
                         <h3>The Great Train Robbery</h3>
                         <p>Film Club: 6/27</p>
                     </div>
                 </div>
-                <div>
-                    <img src="images/bicycle-thief-poster.jpg">
+                <div class="films">
+                    <img src="images/bicycle-thief-poster.jpg" id="films-img">
                     <div class="bicycle-content">
                         <h3>The Bicycle Thief</h3>
                         <p>Film Club: 7/11</p>
                     </div>
                 </div>
-                <div>
-                    <img src="images/nosferatu-poster.jpg">
+                <div class="films">
+                    <img src="images/nosferatu-poster.jpg" id="films-img">
                     <div class="nosferatu-content">
                         <h3>Nosferatu</h3>
                         <p>Film Club: 7/25</p>
                     </div>
                 </div>
-                <div>
-                    <img src="images/metropolis-poster.jpg">
+                <div class="films">
+                    <img src="images/metropolis-poster.jpg" id="films-img">
                     <div class="metropolis-content">
                         <h3>Metropolis</h3>
                         <p>Film Club: 8/08</p>
@@ -85,21 +85,21 @@
                 </div>
             </section>
         </main>
-        <footer>
+        <footer class="home-footer">
             <nav>
                 <ul class="nav-footer">
                     <li class="nfooter-item">
-                        <a href="index.html">Home</a>
+                        <a href="index.html" id="Home">Home</a>
                     </li>
                     <li class="nfooter-item">
-                        <a href="calendar/index.html">Calendar</a>
+                        <a href="calendar/index.html" id="Calendar">Calendar</a>
                     </li>
                     <li class="nfooter-item">
-                        <a href="join/index.html">Join</a>
+                        <a href="join/index.html" id="Join">Join</a>
                     </li>
                 </ul>
             </nav>
-            <span>© 2017, Film Club</span>
+            <span class="home-span">© 2017, Film Club</span>
         </footer>   
     </body>
 </html>
