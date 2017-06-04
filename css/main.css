@@ -1,4 +1,6 @@
-/*Home Mobile Version*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Home Mobile Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 body {
     margin: 0px;
 }
@@ -6,6 +8,7 @@ body {
 .nav-content {
     display: flex;
     height: 190px;
+    width: 100%;
 }
 
 .logo {
@@ -135,7 +138,68 @@ body {
     float: left;
     color: #FFFFFF;
 }
-/*Home Tablet Version*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Home Tablet Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media screen and (min-width: 545px) and (max-width: 768px) {
+    .nav-content {
+        background-color: #80D5DF;
+        height: 10%;
+    }
+    .logo {
+        padding: 1%;
+        height: 141px;
+        width: 15%;
+    }
+    .nav-item {
+        display: inline-block;
+        margin-top: 8%;
+    }
+
+    #Home {
+        padding: 75px 30px;
+    }
+
+    #Calendar {
+        padding: 75px 50%;
+        margin-left: -10%;
+    }
+
+    #Join {
+        padding: 75px 55%;
+        margin-left: 45px;
+    }
+
+    #home-img {
+        padding: 3%;
+    }
+
+    .header-section h1 {
+        margin-top: 5%;
+        margin-left: 7%;
+        margin-bottom: -3%;
+    }
+
+    .header-container {
+        display: flex;
+    }
+
+    .header {
+        margin: 2%;
+    }
+
+    hr {
+        border: 1px solid gray;
+        width: 190%;
+    }
+
+    .films {
+        width: 25%;
+    }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Home Desktop Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (min-width:769px) {
     
 }
