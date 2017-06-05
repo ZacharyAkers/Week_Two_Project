@@ -1,7 +1,7 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Home Mobile Version
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-body {
+#home-page{
     margin: 0px;
 }
 
@@ -250,4 +250,45 @@ Home Desktop Version
     .film-container {
         width: 85%;
     }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Calendar Mobile Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#calendar-page {
+    margin: 0px;
+}
+
+.calendar-container {
+    background-color: #0B1942;
+}
+
+.calendar-h2 {
+    color: #FFFFFF;
+}
+.calendar {
+    width: 100%;
+    margin-left: -35px;
+}
+
+.calendar li {
+    background-color: #FFFFFF;
+    list-style: none;
+    display: inline-block;
+    width: 11%;
+    height: 20%;
+    margin: 1%;
+}
+
+.calendar .highlighted {
+    background-color: #F5005B;
+    list-style: none;
+    display: inline-block;
+    width: 11%;
+    height: 20%;
+    margin: 1%;
+}
+
+.day {
+    background-color: #0B1942;
+    color: #FFFFFF;
 }
