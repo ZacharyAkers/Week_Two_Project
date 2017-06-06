@@ -138,6 +138,7 @@ Home Mobile Version
     float: left;
     color: #FFFFFF;
 }
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Home Tablet Version
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -196,6 +197,7 @@ Home Tablet Version
     .films {
         width: 25%;
     }
+    
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Home Desktop Version
