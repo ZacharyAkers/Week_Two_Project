@@ -113,28 +113,43 @@ Home Mobile Version
 }
 
 .nav-footer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-top: -3%;
-    margin-bottom: -3%;
+    margin: -5%;
 }
 
 .nfooter-item {
     list-style: none;
-    margin-left: -13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0px;
 }
 
 .nfooter-item a {
+    color: white;
     text-decoration: none;
-    float: left;
-    color: #FFFFFF;
 }
 
-.home-span {
+#Home-footer {
+    background-color: #00A5BF;
+    padding: 7% 50% 6% 50%;
+}
+
+#Calendar-footer {
+    background-color: #00B7D3;
+    padding: 7% 50% 6% 50%;
+}
+
+#Join-footer {
+    background-color: #00D5e7;
+    padding: 7% 50% 6% 50%;
+    margin-left: -4%;
+}
+
+
+.span {
     background-color: #80d5df;
     padding: 10% 35%;
-    width: 100%;
+    width: 35%;
     float: left;
     color: #FFFFFF;
 }
@@ -197,6 +212,33 @@ Home Tablet Version
     .films {
         width: 25%;
     }
+
+    .footer-container {
+        margin-top: 5%;
+    }
+
+    .nfooter-item {
+        display: inline-block;
+    }
+
+    .span {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #Home-footer {
+        padding: 75px 30px;
+    }
+
+    #Calendar-footer {
+        padding: 75px 50%;
+        margin-left: -10%;
+    }
+
+    #Join-footer {
+        padding: 75px 55%;
+        margin-left: 45px;
+    }
     
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -252,6 +294,34 @@ Home Desktop Version
     .film-container {
         width: 85%;
     }
+    .nav-footer{
+    }
+
+    .nfooter-item {
+        display: inline-block;
+    }
+
+    .nfooter-item a {
+    }
+
+    .span {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #Home-footer {
+        padding: 75px 30px;
+    }
+
+    #Calendar-footer {
+        padding: 75px 50%;
+        margin-left: -10%;
+    }
+
+    #Join-footer {
+        padding: 75px 55%;
+        margin-left: 45px;
+    }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Calendar Mobile Version
@@ -272,25 +342,162 @@ Calendar Mobile Version
     margin-left: -35px;
 }
 
-.calendar li {
+table {
+    width: 100%;
+}
+
+.t-day {
     background-color: #FFFFFF;
     list-style: none;
     display: inline-block;
-    width: 11%;
+    width: 13%;
     height: 20%;
-    margin: 1%;
+    border: 1px solid #0B1942;
 }
 
-.calendar .highlighted {
+.highlighted {
     background-color: #F5005B;
     list-style: none;
     display: inline-block;
-    width: 11%;
+    width: 13%;
     height: 20%;
-    margin: 1%;
+    border: 1px solid #0B1942;
 }
 
-.day {
+.highlighted h3 {
     background-color: #0B1942;
     color: #FFFFFF;
+    float: left;
+}
+
+
+.t-day h3 {
+    background-color: #0B1942;
+    color: #FFFFFF;
+    float: left;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Calendar Tablet Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (min-width: 545px) and (max-width: 768px){
+    .highlighted {
+        height: 90px;
+    }
+
+    .t-day{
+        height: 90px;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Calendar Desktop Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (min-width: 769px) {
+    .highlighted {
+        height: 145px;
+    }
+
+    .t-day{
+        height: 145px;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Join Mobile Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.prof-pic {
+    border-radius: 50%;
+    width: 70%;
+    margin: 10%;
+}
+
+.signup {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputcontainer {
+    margin: 5%;
+}
+
+.input {
+    width: 80%;
+    height: 50px;
+}
+
+.submitcontainer {
+    margin: 5%;
+}
+
+.submit {
+    padding: 4% 6%;
+    background-color: red;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Join Tablet Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (min-width: 545px) and (max-width: 768px){
+    .prof-pic {
+        width: 40%;
+        float: left;
+    }
+
+    .signup label {
+        margin-top: 9%;
+        margin-bottom: 10%;
+    }
+
+    .checkbox {
+        width: 500px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        height: 350px
+
+    }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Join Desktop Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (min-width: 769px) {
+    .prof-pic {
+        width: 25%;
+        float: left;
+    }
+    
+    .signup {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 15%;
+        margin-top: 18%;
+        padding: 2%;
+    }
+
+    .signup input {
+        margin: 2%;
+        padding: 1%;
+    }
+
+    .checkbox {
+        width: 500px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        height: 230px;
+    }
+
+    .submit{
+        padding: 2% 8%;
+    }
+
+    .footer-container {
+        margin-top: 17%;
+        margin-left: -7%;
+    }
 }
